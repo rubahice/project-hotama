@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotama</title>
+
+    <!-- bagian tailwind css-->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+                screens: {
+                    //small smart phone
+                    'ssm': '325px',
+
+                    //medium smart phone
+                    'msm': '375px',
+
+                    //large smart phone
+                    'lsm': '425px',
+
+                    //large smart phone1
+                    'lsm1': '427px',
+
+                    //large smart phone2
+                    'lsm2': '457px',
+
+                    //large smart phone3
+                    'lsm3': '508px',
+
+                    //smart phone default
+                    'sm': '640px',
+
+                    //table or ipad
+                    'md': '768px',
+
+                    //laptop default
+                    'lg': '1024px',
+
+                    //laptop 1047
+                    'lg1': '1047px',
+
+                    //laptop 1200px
+                    'lg2': '1200px',
+                    
+                    //laptop 1280
+                    'xl': '1280px',
+
+                    //laptop 1440
+                    'xl3': '1440px',
+
+                    '2xl': '1536px',
+                }
+            }
+          }
+        }
+      </script>
+    <!-- <link rel="stylesheet" href="/html/style.css"> -->
+    <!-- bagian link google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <!-- bagian swiper-->
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+</head>
+    
+<body class="scroll-smooth m-0 p-0 box-border">
+
+    <!-- section What The Say -->
+    <section class="section section-Testimonial bg-[#10957D] relative">
+        <img src="/img/Quote-Mark.svg" alt="" class=" hidden lg:block absolute top-6 right-4">
+        <img src="/img/tandapetik.svg" alt="" class="lg:hidden absolute top-8 right-8 opacity-40 md:top-12 md:w-20 md:right-3">
+        <div class="container mx-auto">
+            <h2 class="common-header text-white font-semibold text-center text-2xl pt-4 mb-[1rem] md:text-3xl md:pt-8 md:mb-[2rem] lg:text-4xl lg:pt-16 lg:text-start lg:ml-12 xl:text-5xl 2xl:text-6xl">What They Say?</h2>
+        </div>
+            
+        <div class="swiper mySwiper mx-10 pb-12 md:mx-12 lg:mx-14 xl:mx-16">
+            <div class="swiper-wrapper">
+                
+            <div class="swiper-slide">
+                <div class="swiper-slide font-[Manrope]">
+                    <div class="swiper-client-msg h-[280px] msm:h-[250px] lsm3:h-[190px] lsm:h-[230px] md:h-[240px] lg:h-[230px] xl:h-[220px] lg2:h-[210px] xl3:h-[200px] py-4 px-4 rounded-xl bg-white text-center">
+                        <h2 class="font-medium text-[16px] pt-2 msm:text-[17px] lsm:text-[18px] md:text-[18px] lg:text-[17px] xl:text-[18px] xl:pt-1.5 xl3:pt-2">Incredible Experience</h2>
+                        <p class="font-normal text-[11px] py-[26px] msm:text-[11.5px] lsm3:py-[12px] lsm:py-[28px] md:py-[34px] md:text-[12px] lg:text-[13px] lg:py-[30px] lg2:py-[20px] xl:text-[14px] xl:px-7 xl3:py-[18px]">We had an incredible experience working with Hotama and were impressed they made such a big difference in only three weeks. Our team is so grateful for the wonderful improvements they made and their ability to get familiar with the concept so quickly. It acted as a catalyst to take our design to the next level and get more eyes on our product.</p>
+                    </div>
+                    <div class="h-4 w-4 md:h-5 md:w-5 md:-mt-3 lg:h-6 lg:w-6 lg:-mt-3.5 bg-white rotate-45 rounded mx-auto -mt-2.5"></div>
+                    <div class="swiper-client-data text-white flex justify-center gap-4 pt-4 md:pt-5 lg:pt-6">
+                        <figure>
+                            <img src="/img/Picture2.svg" class="rounded-full h-10 md:h-12 lg:h-14" alt="">
+                        </figure>
+                        <div class="client-data-details">
+                            <p class="font-medium text-[16px] md:text-[17px] lg:text-[18px] xl:text-[19px]">Arabella Josephine</p>
+                            <p class="font-normal pt-1 text-[11px] md:text-[12px] lg:text-[13px] xl:text-[14px]">Direktur CV. Kreasi Kite</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="swiper-slide">
+                <div class="swiper-slide font-[Manrope]">
+                    <div class="swiper-client-msg h-[280px] msm:h-[250px] lsm3:h-[190px] lsm:h-[230px] md:h-[240px] lg:h-[230px] xl:h-[220px] lg2:h-[210px] xl3:h-[200px] py-4 px-4 rounded-xl bg-white text-center">
+                        <h2 class="font-medium text-[16px] pt-2 msm:text-[17px] lsm:text-[18px] md:text-[18px] lg:text-[17px] xl:text-[18px] xl:pt-1.5 xl3:pt-2">Unbelievable Encounter</h2>
+                        <p class="font-normal text-[11px] py-[26px] msm:text-[11.5px] lsm3:py-[12px] lsm:py-[28px] md:py-[34px] md:text-[12px] lg:text-[13px] lg:py-[30px] lg2:py-[20px] xl:text-[14px] xl:px-7 xl3:py-[18px]">We had an incredible experience working with Hotama and were impressed they made such a big difference in only three weeks. Our team is so grateful for the wonderful improvements they made and their ability to get familiar with the concept so quickly. It acted as a catalyst to take our design to the next level and get more eyes on our product.</p>
+                    </div>
+                    <div class="h-4 w-4 md:h-5 md:w-5 md:-mt-3 lg:h-6 lg:w-6 lg:-mt-3.5 bg-white rotate-45 rounded mx-auto -mt-2.5"></div>
+                    <div class="swiper-client-data text-white flex justify-center gap-4 pt-4 md:pt-5 lg:pt-6">
+                        <figure>
+                            <img src="/img/Picture1.svg" class="rounded-full h-10 md:h-12 lg:h-14" alt="">
+                        </figure>
+                        <div class="client-data-details">
+                            <p class="font-medium text-[16px] md:text-[17px] lg:text-[18px] xl:text-[19px]">Nathaniel Benjamin</p>
+                            <p class="font-normal pt-1 text-[11px] md:text-[12px] lg:text-[13px] xl:text-[14px]">Direktur CV. EksaTekno Solusi</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="swiper-slide">
+                <div class="swiper-slide font-[Manrope]">
+                    <div class="swiper-client-msg h-[280px] msm:h-[250px] lsm3:h-[190px] lsm:h-[230px] md:h-[240px] lg:h-[230px] xl:h-[220px] lg2:h-[210px] xl3:h-[200px] py-4 px-4 rounded-xl bg-white text-center">
+                        <h2 class="font-medium text-[14px] pt-2 msm:text-[15px] lsm:text-[16px] md:text-[16px] lg:text-[17px] lg:py-3 xl:text-[18px] xl:py-2">Dependable, Responsive, Professional Partner</h2>
+                        <p class="font-normal text-[11px] py-2 msm:text-[11.5px] lsm3:py-[14px] lsm2:py-8 md:text-[12px] lg:text-[13px] xl:text-[14px] xl:pt-5 lg:px-7 lg2:py-[4px] xl3:py-[10px]">Being part of the collaboration with Hotama in application development has provided an incredible experience for us. Hotama is not just a development partner, but also a strategic partner who understands our vision deeply. Professional work processes, team compassion, and expertise in overcoming technical challenges made our experience with Hotama very satisfying.</p>
+                    </div>
+                    <div class="h-4 w-4 md:h-5 md:w-5 md:-mt-3 lg:h-6 lg:w-6 lg:-mt-3.5 bg-white rotate-45 rounded mx-auto -mt-2.5"></div>
+                    <div class="swiper-client-data text-white flex justify-center gap-4 pt-4 md:pt-5 lg:pt-6">
+                        <figure>
+                            <img src="/img/Photo1.svg" class="rounded-full h-10 md:h-12 lg:h-14" alt="">
+                        </figure>
+                        <div class="client-data-details lg:pt-0">
+                            <p class="font-medium text-[16px] md:text-[17px] lg:text-[18px] xl:text-[19px]">Anastasia Cordelia</p>
+                            <p class="font-normal pt-1 text-[11px] md:text-[12px] lg:text-[13px] xl:text-[14px]">CEO PT. ApexTeknologi</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="swiper-slide">
+                <div class="swiper-slide font-[Manrope]">
+                    <div class="swiper-client-msg h-[280px] msm:h-[250px] lsm3:h-[190px] lsm:h-[230px] md:h-[240px] lg:h-[230px] xl:h-[220px] lg2:h-[210px] xl3:h-[200px] py-4 px-4 rounded-xl bg-white text-center">
+                        <h2 class="font-medium text-[14px] pt-2 msm:text-[15px] lsm:text-[16px] md:text-[16px] lg:text-[17px] lg:py-0 lg1:py-3 xl:text-[18px] xl:py-2">Reliable, Quick-to-Respond, Competent Collaborator</h2>
+                        <p class="font-normal text-[11px] py-2 msm:text-[11.5px] lsm3:py-[14px] md:text-[12px] lg:text-[13px] xl:text-[14px] xl:pt-5 xl:px-7 lg2:py-[4px] xl3:py-[10px]">The applications developed by Hotama not only adhere to high standards in design and functionality, but are also able to exceed our expectations. They not only focus on the current task, but always think ahead to help us formulate a long-term vision and future opportunities. Their expertise in integrating innovative features and solutions that fit our specific needs was a significant added value.</p>
+                    </div>
+                    <div class="h-4 w-4 md:h-5 md:w-5 md:-mt-3 lg:h-6 lg:w-6 lg:-mt-3.5 bg-white rotate-45 rounded mx-auto -mt-2.5"></div>
+                    <div class="swiper-client-data text-white flex justify-center gap-4 pt-4 md:pt-5 lg:pt-6">
+                        <figure>
+                            <img src="/img/Photo2.svg" class="rounded-full h-10 md:h-12 lg:h-14" alt="">
+                        </figure>
+                        <div class="client-data-details lg:pt-0.5">
+                            <p class="font-medium text-[16px] md:text-[17px] lg:text-[18px] xl:text-[19px]">Valentina Octavia</p>
+                            <p class="font-normal pt-1 text-[11px] md:text-[12px] lg:text-[13px] xl:text-[14px]">CEO PT. Quantum Teknologi</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="swiper-slide">
+                <div class="swiper-slide font-[Manrope]">
+                    <div class="swiper-client-msg h-[280px] msm:h-[250px] lsm3:h-[190px] lsm:h-[230px] md:h-[240px] lg:h-[230px] xl:h-[220px] lg2:h-[210px] xl3:h-[200px] py-4 px-4 rounded-xl bg-white text-center">
+                        <h2 class="font-medium text-[14px] pt-2 msm:text-[15px] lsm:text-[16px] md:text-[16px] lg:text-[17px] xl:text-[18px]">Hotama Takes Web Design to New Heights</h2>
+                        <p class="font-normal text-[11px] py-2 msm:text-[11.5px] lsm3:py-[14px] lsm1:py-8 md:text-[12px] lg:text-[13px] lg:py-8 xl:text-[14px] xl:pt-7 xl:px-7 lg2:py-[20px] xl3:py-[18px]">The website they produced not only reflects high design expertise and functionality, but also reflects their deep understanding of our brand identity and vision. Hotama not only completed the project, but they were committed to providing a solution that exceeded our expectations. They are always willing to collaborate, provide creative ideas, and explain each step clearly.</p>
+                    </div>
+                    <div class="h-4 w-4 md:h-5 md:w-5 md:-mt-3 lg:h-6 lg:w-6 lg:-mt-3.5 bg-white rotate-45 rounded mx-auto -mt-2.5"></div>
+                    <div class="swiper-client-data text-white flex justify-center gap-4 pt-4 md:pt-5 lg:pt-6">
+                        <figure>
+                            <img src="/img/Photo3.svg" class="rounded-full h-10 md:h-12 lg:h-14" alt="">
+                        </figure>
+                        <div class="client-data-details lg:pt-0.5">
+                            <p class="font-medium text-[16px] md:text-[17px] lg:text-[18px] xl:text-[19px]">Ophelia Celestine</p>
+                            <p class="font-normal pt-1 text-[11px] md:text-[12px] lg:text-[13px] xl:text-[14px]">CEO PT. InovasiTek Terkini</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="swiper-slide">
+                <div class="swiper-slide font-[Manrope]">
+                    <div class="swiper-client-msg h-[280px] msm:h-[250px] lsm3:h-[190px] lsm:h-[230px] md:h-[240px] lg:h-[230px] xl:h-[220px] lg2:h-[210px] xl3:h-[200px] py-4 px-4 rounded-xl bg-white text-center">
+                        <h2 class="font-medium text-[14px] pt-2 px-2 msm:text-[15px] lsm:text-[16.25px] md:text-[16px] lg:text-[17px] xl:text-[18px]">Strategic Partner in Website Excellence</h2>
+                        <p class="font-normal text-[11px] py-2 msm:text-[11.5px] lsm3:py-[14px] lsm1:py-8 md:text-[12px] lg:text-[13px] lg:py-8 xl:text-[14px] xl:pt-7 xl:px-7 lg2:py-[20px] xl3:py-[18px]">Working with Hotama on the development of our website has been a great experience. Hotama is not just a provider of website creation services, but a very dedicated strategic partner. From start to finish of the project, the Hotama team has demonstrated a high level of professionalism, extraordinary creativity and consistent commitment to delivering the best results.</p>
+                    </div>
+                    <div class="h-4 w-4 md:h-5 md:w-5 md:-mt-3 lg:h-6 lg:w-6 lg:-mt-3.5 bg-white rotate-45 rounded mx-auto -mt-2.5"></div>
+                    <div class="swiper-client-data text-white flex justify-center gap-4 pt-4 md:pt-5 lg:pt-6">
+                        <figure>
+                            <img src="/img/Photo4.svg" class="rounded-full h-10 md:h-12 lg:h-14" alt="">
+                        </figure>
+                        <div class="client-data-details lg:pt-0.5">
+                            <p class="font-medium text-[16px] md:text-[17px] lg:text-[18px] xl:text-[19px]">Jonathan Alexander</p>
+                            <p class="font-normal pt-1 text-[11px] md:text-[12px] lg:text-[13px] xl:text-[14px]">CEO PT. InnovateTek</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+        <!-- akhir kodingan -->
+
+
+            <!-- kodingan sebelum-nya -->
+            
+            <!-- <div class="swiper mySwiper mx-16 pb-12 md:mx-12 lg:mx-14 xl:mx-16">
+                <div class="swiper-wrapper">
+                    
+                <div class="swiper-slide">
+                    <div class="swiper-slide font-[Manrope] sm:min-[320px] sm:max-[425px]">
+                        <div class="swiper-client-msg h-[420px] px-7 py-4 pb-6 md:px-9 md:py-7 lg:px-10 xl:px-12 rounded-xl bg-white text-center">
+                            <h2 class="font-medium pt-3 md:pt-3.5 lg:pt-5 text-[16px] md:text-[17px] lg:text-[18px] xl:text-[19px]">Incredible Experience</h2>
+                            <p class="font-normal pt-4 pb-4 md:pt-4 md:pb-4 lg:pb-5 xl:pb-6 text-[11px] md:text-[12px] lg:text-[13px] xl:text-[14px]">We had an incredible experience working with Hotama and were impressed they made such a big difference in only three weeks. Our team is so grateful for the wonderful improvements they made and their ability to get familiar with the concept so quickly. It acted as a catalyst to take our design to the next level and get more eyes on our product.</p>
+                        </div>
+                        <div class="h-4 w-4 md:h-5 md:w-5 md:-mt-3 lg:h-6 lg:w-6 lg:-mt-3.5 bg-white rotate-45 rounded mx-auto -mt-2.5"></div>
+                        <div class="swiper-client-data text-white flex justify-center gap-4 pt-4 md:pt-5 lg:pt-6">
+                            <figure>
+                                <img src="/img/Picture2.svg" class="rounded-full h-10 md:h-12 lg:h-14" alt="">
+                            </figure>
+                            <div class="client-data-details md:pt-0.5 lg:pt-0">
+                                <p class="font-medium text-[16px] md:text-[17px] lg:text-[18px] xl:text-[19px]">Arabella Josephine</p>
+                                <p class="font-normal text-[11px] pt-1 md:text-[12px] lg:text-[13px] xl:text-[14px]">Direktur CV. Kreasi Kite</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="swiper-slide">
+                    <div class="swiper-slide font-[Manrope]">
+                        <div class="swiper-client-msg h-[420px] px-7 py-4 pb-6 md:px-9 md:py-7 lg:px-10 xl:px-12 rounded-xl bg-white text-center">
+                            <h2 class="font-medium pt-3 md:pt-3.5 lg:pt-5 text-[16px] md:text-[17px] lg:text-[18px] xl:text-[19px]">Unbelievable Encounter</h2>
+                            <p class="font-normal pt-4 pb-4 md:pt-4 md:pb-4 lg:pb-5 xl:pb-6 text-[11px] md:text-[12px] lg:text-[13px] xl:text-[14px]">We had an incredible experience working with Hotama and were impressed they made such a big difference in only three weeks. Our team is so grateful for the wonderful improvements they made and their ability to get familiar with the concept so quickly. It acted as a catalyst to take our design to the next level and get more eyes on our product.</p>
+                        </div>
+                        <div class="h-4 w-4 md:h-5 md:w-5 md:-mt-3 lg:h-6 lg:w-6 lg:-mt-3.5 bg-white rotate-45 rounded mx-auto -mt-2.5"></div>
+                        <div class="swiper-client-data text-white flex justify-center gap-4 pt-4 md:pt-5 lg:pt-6">
+                            <figure>
+                                <img src="/img/Picture1.svg" class="rounded-full h-10 md:h-12 lg:h-14" alt="">
+                            </figure>
+                            <div class="client-data-details md:pt-0.5 lg:pt-0">
+                                <p class="font-medium text-[16px] md:text-[17px] lg:text-[18px] xl:text-[19px]">Nathaniel Benjamin</p>
+                                <p class="font-normal text-[11px] pt-1 md:text-[12px] lg:text-[13px] xl:text-[14px]">Direktur CV. EksaTekno Solusi</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="swiper-slide">
+                    <div class="swiper-slide font-[Manrope]">
+                        <div class="swiper-client-msg h-[420px] px-7 py-4 pb-6 md:px-9 md:py-7 lg:px-10 xl:px-12 rounded-xl bg-white text-center">
+                            <h2 class="font-medium text-[16px] lg:pt-1 xl:pt-5 md:text-[17px] lg:text-[18px] xl:text-[19px]">Dependable, Responsive, Professional Partner</h2>
+                            <p class="font-normal text-[11px] lg:pt-1 lg:pb-0.5 xl:pt-4 xl:pb-0.5 2xl:pb-1 pt-1 md:text-[12px] lg:text-[13px] xl:text-[14px]">Being part of the collaboration with Hotama in application development has provided an incredible experience for us. Hotama is not just a development partner, but also a strategic partner who understands our vision deeply. Professional work processes, team compassion, and expertise in overcoming technical challenges made our experience with Hotama very satisfying.</p>
+                        </div>
+                        <div class="h-4 w-4 md:h-5 md:w-5 md:-mt-3 lg:h-6 lg:w-6 lg:-mt-3.5 bg-white rotate-45 rounded mx-auto -mt-2.5"></div>
+                        <div class="swiper-client-data text-white flex justify-center gap-4 pt-4 md:pt-5 lg:pt-6">
+                            <figure>
+                                <img src="/img/Photo1.svg" class="rounded-full h-10 md:h-12 lg:h-14" alt="">
+                            </figure>
+                            <div class="client-data-details lg:pt-0">
+                                <p class="font-medium text-[16px] md:text-[17px] lg:text-[18px] xl:text-[19px]">Anastasia Cordelia</p>
+                                <p class="font-normal text-[11px] pt-1 md:text-[12px] lg:text-[13px] xl:text-[14px]">CEO PT. ApexTeknologi</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="swiper-slide">
+                    <div class="swiper-slide">
+                        <div class="swiper-slide font-[Manrope]">
+                            <div class="swiper-client-msg h-[420px] px-7 py-4 pb-6 md:px-9 md:py-7 lg:px-10 xl:px-12 rounded-xl bg-white text-center">
+                                <h2 class="font-medium text-[16px] lg:pt-1 2xl:pt-5 md:text-[17px] lg:text-[18px] xl:text-[19px]">Reliable, Quick-to-Respond, Competent Collaborator</h2>
+                                <p class="font-normal text-[11px] lg:pb-0.5 2xl:pt-4 2xl:pb-1 pt-1 md:text-[12px] lg:text-[13px] xl:text-[14px]">The applications developed by Hotama not only adhere to high standards in design and functionality, but are also able to exceed our expectations. They not only focus on the current task, but always think ahead to help us formulate a long-term vision and future opportunities. Their expertise in integrating innovative features and solutions that fit our specific needs was a significant added value.</p>
+                            </div>
+                            <div class="h-4 w-4 md:h-5 md:w-5 md:-mt-3 lg:h-6 lg:w-6 lg:-mt-3.5 bg-white rotate-45 rounded mx-auto -mt-2.5"></div>
+                            <div class="swiper-client-data text-white flex justify-center gap-4 pt-4 md:pt-5 lg:pt-6">
+                                <figure>
+                                    <img src="/img/Photo2.svg" class="rounded-full h-10 md:h-12 lg:h-14" alt="">
+                                </figure>
+                                <div class="client-data-details lg:pt-0.5">
+                                    <p class="font-medium text-[16px] md:text-[17px] lg:text-[18px] xl:text-[19px]">Valentina Octavia</p>
+                                    <p class="font-normal text-[11px] pt-1 md:text-[12px] lg:text-[13px] xl:text-[14px]">CEO PT. Quantum Teknologi</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="swiper-slide">
+                    <div class="swiper-slide">
+                        <div class="swiper-slide font-[Manrope]">
+                            <div class="swiper-client-msg h-[420px] px-7 py-4 pb-6 md:px-9 md:py-7 lg:px-10 xl:px-12 rounded-xl bg-white text-center">
+                                <h2 class="font-medium lg:pt-5 text-[16px] md:text-[17px] lg:text-[18px] xl:text-[19px]">Hotama Takes Web Design to New Heights</h2>
+                                <p class="font-normal lg:pt-4 xl:pb-1 text-[11px] pt-1 md:text-[12px] lg:text-[13px] xl:text-[14px]">The website they produced not only reflects high design expertise and functionality, but also reflects their deep understanding of our brand identity and vision. Hotama not only completed the project, but they were committed to providing a solution that exceeded our expectations. They are always willing to collaborate, provide creative ideas, and explain each step clearly.</p>
+                            </div>
+                            <div class="h-4 w-4 md:h-5 md:w-5 md:-mt-3 lg:h-6 lg:w-6 lg:-mt-3.5 bg-white rotate-45 rounded mx-auto -mt-2.5"></div>
+                            <div class="swiper-client-data text-white flex justify-center gap-4 pt-4 md:pt-5 lg:pt-6">
+                                <figure>
+                                    <img src="/img/Photo3.svg" class="rounded-full h-10 md:h-12 lg:h-14" alt="">
+                                </figure>
+                                <div class="client-data-details lg:pt-0.5">
+                                    <p class="font-medium text-[16px] md:text-[17px] lg:text-[18px] xl:text-[19px]">Ophelia Celestine</p>
+                                    <p class="font-normal text-[11px] pt-1 md:text-[12px] lg:text-[13px] xl:text-[14px]">CEO PT. InovasiTek Terkini</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="swiper-slide">
+                    <div class="swiper-slide">
+                        <div class="swiper-slide font-[Manrope]">
+                            <div class="swiper-client-msg h-[420px] px-7 py-4 pb-6 md:px-9 md:py-7 lg:px-10 xl:px-12 rounded-xl bg-white text-center">
+                                <h2 class="font-medium lg:pt-5 text-[16px] md:text-[17px] lg:text-[18px] xl:text-[19px]">Strategic Partner in Website Excellence</h2>
+                                <p class="font-normal lg:pt-4 xl:pb-1 text-[11px] pt-1 md:text-[12px] lg:text-[13px] xl:text-[14px]">Working with Hotama on the development of our website has been a great experience. Hotama is not just a provider of website creation services, but a very dedicated strategic partner. From start to finish of the project, the Hotama team has demonstrated a high level of professionalism, extraordinary creativity and consistent commitment to delivering the best results.</p>
+                            </div>
+                            <div class="h-4 w-4 md:h-5 md:w-5 md:-mt-3 lg:h-6 lg:w-6 lg:-mt-3.5 bg-white rotate-45 rounded mx-auto -mt-2.5"></div>
+                            <div class="swiper-client-data text-white flex justify-center gap-4 pt-4 md:pt-5 lg:pt-6">
+                                <figure>
+                                    <img src="/img/Photo4.svg" class="rounded-full h-10 md:h-12 lg:h-14" alt="">
+                                </figure>
+                                <div class="client-data-details lg:pt-0.5">
+                                    <p class="font-medium text-[16px] md:text-[17px] lg:text-[18px] xl:text-[19px]">Jonathan Alexander</p>
+                                    <p class="font-normal text-[11px] pt-1 md:text-[12px] lg:text-[13px] xl:text-[14px]">CEO PT. InnovateTek</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div> -->
+    </section>
+
+
+    <!-- swiper -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="/js/swiper-bundle.min.js"></script>
+    <!-- main -->
+    <script src="/js/main.js"></script>
+</body>
+</html>
